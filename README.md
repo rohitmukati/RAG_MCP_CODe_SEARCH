@@ -46,14 +46,8 @@ RAG_MCP_CODE_SEARCH/
 │   ├── files.py              # File handling utilities
 │   └── uploads.py            # Upload processing logic
 │
-├── mcp/
-│   ├── server.py             # MCP Streamable HTTP Server
-│   ├── tools/
-│   │   ├── rag_search.py     # RAG Search MCP Tool
-│   │   └── code_update.py    # Code Update MCP Tool
-│   └── client.py             # Anthropic Client for MCP communication
-│
 ├── server.py                 # FastAPI backend (API endpoints, VectorDB handling)
+├── client.py                 # Anthropic Client
 ├── streamlit.py              # Streamlit frontend for user interaction
 ├── requirements.txt          # Project dependencies
 ├── .env                      # Environment variables (see configuration below)
