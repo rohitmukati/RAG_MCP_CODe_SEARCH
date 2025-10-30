@@ -207,7 +207,6 @@ streamlit run streamlit.py
 ```
 
 
----n
 
 ### MCP Communication Flow
 
@@ -248,7 +247,7 @@ User Query → Streamlit UI → Anthropic Client → MCP HTTP Server
 | **MCP Server** | Custom Streamable HTTP Server |
 | **Language Model** | Claude (via Anthropic API) |
 | **RAG Pipeline** | Custom implementation |
-| **Deployment** | Uvicorn |
+| **Deployment** | Uvicorn FastAPI |
 
 ---
 
