@@ -156,7 +156,7 @@ MCP_SERVER_PORT="8001"
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/RAG_MCP_CODE_SEARCH.git
+git clone https://github.com/rohitmukati/RAG_MCP_CODe_SEARCH.git
 cd RAG_MCP_CODE_SEARCH
 ```
 
@@ -235,32 +235,6 @@ User Query → Streamlit UI → Anthropic Client → MCP HTTP Server
 
 ---
 
-
-### Direct MCP Server API
-
-**RAG Search Endpoint:**
-```bash
-POST http://localhost:8001/tools/rag_search
-Content-Type: application/json
-
-{
-  "query": "database connection code"
-}
-```
-
-**Code Update Endpoint:**
-```bash
-POST http://localhost:8001/tools/code_update
-Content-Type: application/json
-
-{
-  "file_path": "src/db.py",
-  "content": "updated code content",
-  "approved": true
-}
-```
-
----
 
 ## 🧠 Tech Stack
 
