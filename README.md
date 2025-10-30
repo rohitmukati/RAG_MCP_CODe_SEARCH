@@ -146,10 +146,8 @@ MCP_SERVER_PORT="8001"
 | `TOKEN` | Authentication token for Zilliz Cloud |
 | `COLLECTION_NAME` | Name of the collection in Zilliz (default: "CodeBase") |
 | `ANTHROPIC_API_KEY` | Your Anthropic API key for Claude integration |
-| `FOLDER_TO_UPDATE` | Local folder path where code updates will be applied |
+| `FOLDER_TO_UPDATE` |
 | `FOLDER_TO_UPLOAD` | Folder for storing uploaded ZIP files and extracted code |
-| `MCP_SERVER_HOST` | Host for MCP HTTP server (default: "localhost") |
-| `MCP_SERVER_PORT` | Port for MCP HTTP server (default: "8001") |
 
 ---
 
